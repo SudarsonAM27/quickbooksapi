@@ -11,7 +11,7 @@
     if (@claim.Type == "access_token")
     {
         <p>Connection successful!</p>
-        <p>@claim.Value</p>
+        @*<p>@claim.Value</p>*@
         break;
     }
 
@@ -21,10 +21,91 @@
 
 @using (Html.BeginForm("ApiCallService", "App", FormMethod.Post))
 {
+    <table>
+        <tr>
+            <td>
+                <label for="inputData1">Street Name</label>
+            </td>
+            <td>
+                <input type="text" name="inputData1" />
 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData2">City Name</label>
+            </td>
+            <td>
+                <input type="text" name="inputData2" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData3">Country Name(Short Form)</label>
+            </td>
+            <td>
+                <input type="text" name="inputData3" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData4">Country Subdivision Name(Short Form)</label>
+            </td>
+            <td>
+                <input type="text" name="inputData4" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData5">Postal Code</label>
+            </td>
+            <td>
+                <input type="text" name="inputData5" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData6">Notes</label>
+            </td>
+            <td>
+                <input type="text" name="inputData6" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData7">Company Name</label>
+            </td>
+            <td>
+                <input type="text" name="inputData7" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData8">Phone Number</label>
+            </td>
+            <td>
+                <input type="text" name="inputData8" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="inputData9">Email id</label>
+            </td>
+            <td>
+                <input type="text" name="inputData9" />
+            </td>
+        </tr>
+
+    </table>
     <div><input type="submit" name="submitButton" value="API Call service" /></div>
     <br />
+
 
     <br />
 }
 
+@using (Html.BeginForm("GetNames", "App", FormMethod.Post))
+{
+    <div><input type = "submit" name = "getAll" value = "GetAll"/>GetAll</div >
+
+}

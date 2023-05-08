@@ -1,5 +1,3 @@
-C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\obj\Debug\MVC Manual Code Flow Client.csproj.AssemblyReference.cache
-C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\obj\Debug\MVC Manual Code Flow Client.csproj.CoreCompileInputs.cache
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\bin\MvcCodeFlowClientManual.dll.config
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\bin\MvcCodeFlowClientManual.dll
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\bin\MvcCodeFlowClientManual.pdb
@@ -191,6 +189,8 @@ C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\bin\Syst
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\bin\System.Web.WebPages.xml
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\obj\Debug\MVC Manual Code Flow Client.csproj.AssemblyReference.cache
+C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\obj\Debug\MVC Manual Code Flow Client.csproj.CoreCompileInputs.cache
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\obj\Debug\MVC Manual Code Flow Client.csproj.CopyComplete
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\obj\Debug\MvcCodeFlowClientManual.dll
 C:\Users\Vakilsearch\source\repos\HelloWorldApp\MvcCodeFlowClientManual\obj\Debug\MvcCodeFlowClientManual.pdb

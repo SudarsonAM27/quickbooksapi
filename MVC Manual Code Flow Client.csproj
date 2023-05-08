@@ -206,7 +206,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CallbackController.cs" />
     <Compile Include="Controllers\AppController.cs" />
-    <Compile Include="Controllers\InvoicingController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -295,6 +294,8 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\App\Add.cshtml" />
+    <Content Include="Views\App\GetNames.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">

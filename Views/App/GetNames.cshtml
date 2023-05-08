@@ -1,0 +1,23 @@
+﻿
+@model string[]
+@{
+    ViewBag.Title = "GetNames";
+}
+
+<h2>GetNames</h2>
+<table>
+    @foreach (var customer in Model)
+    {
+        <tr>
+            <td>@customer</td>
+            <td>
+                @using (Html.BeginForm("ViewCustomer", "App", FormMethod.Post))
+                {
+                    <div><input type="submit" name="ViewCustomer" value=View /></div>
+
+                }
+            </td>
+        </tr>
+    }
+</table>
+@*<p>@Model</p>*@
